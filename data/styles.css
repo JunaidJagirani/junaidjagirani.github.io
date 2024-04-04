@@ -1,0 +1,150 @@
+/* My Codes */
+
+/* My Codes End*/
+
+/* Popup container */
+    .popup-container {
+      font-family: 'Iceland', sans-serif;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 300px;
+      background-color: rgba(173, 216, 230, 0.5); /* Light blue transparent color */
+      border: 1px solid rgba(173, 216, 230, 0.7); /* Thin light blue stroke */
+      box-shadow: 0px 0px 20px rgba(173, 216, 230, 0.7); /* Light blue glass shadow */
+      z-index: 999;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+      border-radius: 10px; /* Rounded corners */
+      font-size: 30px; /* Default font size */
+    }
+
+    /* Popup container - open state */
+    .popup-container.open {
+      transform: translateX(0);
+    }
+
+    .popup-header {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Paytone One', sans-serif;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in-out; /* Change the animation */
+  font-size: 20px;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; /* Create outline effect */
+}
+
+/* Stylish bullet */
+.developer-name::before {
+  content: "\2022"; /* Unicode character for bullet (•) */
+  color: #007bff; /* Color of the bullet */
+  font-size: 20px; /* Adjust size of the bullet */
+  margin-right: 5px; /* Adjust spacing between bullet and text */
+}
+
+
+    /* Close icon */
+    .close-icon {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    /* Developer names */
+    .developer-name {
+      cursor: pointer;
+      font-size: 25px; /* Larger font size for developer names */
+      color: #007bff; /* Default color */
+      transition: color 0.3s ease-in-out; /* Smooth transition */
+    }
+
+    /* Hover effect for developer names */
+    .developer-name:hover {
+      color: #3498db; /* Light blue color on hover */
+    }
+
+    /* Developer details */
+    .developer-details {
+      margin-top: 50px; /* Adjust spacing */
+      font-size: 15px; /* Smaller font size for developer details */
+    }
+
+    /* Telegram button */
+    .telegram-button {
+      background-color: #0088cc;
+      color: #fff;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px; /* Font size for the Telegram button */
+    }
+
+    /* Telegram button hover state */
+    .telegram-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Developer logo */
+    .developer-logo {
+      width: 100px; /* Adjusted width to include the stroke */
+      height: 100px; /* Adjusted height to include the stroke */
+      border: 2px solid #007bff; /* Set the border to create the stroke */
+      border-radius: 50%;
+      position: absolute;
+      top: -50px; /* Adjusted top position to properly position the image with stroke */
+      left: calc(50% - 50px); /* Adjusted left position to center the image */
+      overflow: hidden; /* Ensure the image does not overflow */
+      z-index: 1001; /* Ensure the developer logo is in front of the details box */
+    }
+
+    /* Developer logo image */
+    .developer-logo img {
+      width: 100%; /* Make sure the image fills the container */
+      height: 100%; /* Make sure the image fills the container */
+      object-fit: cover;
+    }
+
+    /* Developer details box */
+.details-box {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+  border-radius: 10px;
+  padding: 15px;
+  display: none; /* Initially hide the details box */
+  width: 250px;
+  left: 50%;
+  top: 50%;
+  font-family: 'Righteous', sans-serif;
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* Ensure the details box is in front of the slider */
+  box-shadow: 0 0 20px rgba(204, 240, 255, 0.7); /* Light blue crystal glass stroke */
+  color: #000CFF; /* Professional color for text */
+  text-shadow: -1px -1px 0 rgba(255, 240, 0, 0.7),  
+               1px -1px 0 rgba(255, 240, 0, 0.7),
+              -1px 1px 0 rgba(255, 240, 0, 0.7),
+               1px 1px 0 rgba(255, 240, 0, 0.7);
+}
+
+
+
+    @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+    }
