@@ -67,20 +67,23 @@ function showDeveloperInfo(name) {
       detailsBox.style.display = "none";
     }, 10000);
 
-    // Check if Telegram button already exists
-    var telegramButton = document.querySelector(".telegram-button");
-    if (!telegramButton) {
-      // Create and append Telegram button if it doesn't exist
-      telegramButton = document.createElement("button");
-      telegramButton.classList.add("telegram-button");
-      telegramButton.innerText = "Message on Telegram";
-      telegramButton.onclick = function() {
-        window.open(developerInfo.telegram, "_blank"); // Open Telegram link in a new tab
-      };
-      document.querySelector(".developer-details").appendChild(telegramButton);
+    // Remove any existing Telegram button
+    var existingTelegramButton = document.querySelector(".telegram-button");
+    if (existingTelegramButton) {
+      existingTelegramButton.remove();
     }
+
+    // Create and append Telegram button
+    var telegramButton = document.createElement("button");
+    telegramButton.classList.add("telegram-button");
+    telegramButton.innerText = "Message on Telegram";
+    telegramButton.onclick = function() {
+      window.open(developerInfo.telegram, "_blank"); // Open Telegram link in a new tab
+    };
+    document.querySelector(".developer-details").appendChild(telegramButton);
   }
 }
+
 
 window.addEventListener('click', function(event) {
   var popupContainer = document.getElementById("popupContainer");
