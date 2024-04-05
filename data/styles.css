@@ -3,30 +3,23 @@
 /* My Codes End*/
 
 /* Popup container */
-.popup-container {
-  font-family: 'Iceland', sans-serif;
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 300px;
-  background-color: rgba(173, 216, 230, 0.5); /* Light blue transparent color */
-  border: 1px solid rgba(173, 216, 230, 0.7); /* Thin light blue stroke */
-  box-shadow: 0px 0px 20px rgba(173, 216, 230, 0.7); /* Light blue glass shadow */
-  z-index: 999;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  transform: translateX(-100%);
-  border-radius: 10px; /* Rounded corners */
-  font-size: 30px; /* Default font size */
-  font-weight: bold; /* Make font bold */
-  color: white; /* Text color */
-  text-shadow: -1px -1px 0 #000,  
-               1px -1px 0 #000,
-               -1px 1px 0 #000,
-               1px 1px 0 #000; /* Black text stroke */
-}
-
+    .popup-container {
+      font-family: 'Iceland', sans-serif;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 300px;
+      background-color: rgba(173, 216, 230, 0.5); /* Light blue transparent color */
+      border: 1px solid rgba(173, 216, 230, 0.7); /* Thin light blue stroke */
+      box-shadow: 0px 0px 20px rgba(173, 216, 230, 0.7); /* Light blue glass shadow */
+      z-index: 999;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+      border-radius: 10px; /* Rounded corners */
+      font-size: 30px; /* Default font size */
+    }
 
     /* Popup container - open state */
     .popup-container.open {
@@ -70,11 +63,18 @@
 
     /* Developer names */
     .developer-name {
-      cursor: pointer;
-      font-size: 25px; /* Larger font size for developer names */
-      color: #007bff; /* Default color */
-      transition: color 0.3s ease-in-out; /* Smooth transition */
-    }
+  cursor: pointer;
+  font-size: 25px; /* Larger font size for developer names */
+  color: #007bff; /* Default color */
+  text-shadow: 
+    -1px -1px 0 white,  
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white; /* Inner white shadow */
+  -webkit-text-stroke: 1px transparent; /* Hide default stroke */
+  outline: 1px solid white; /* Outer white stroke */
+  transition: color 0.3s ease-in-out; /* Smooth transition */
+}
 
     /* Hover effect for developer names */
     .developer-name:hover {
