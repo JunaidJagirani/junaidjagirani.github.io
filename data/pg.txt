@@ -1,0 +1,186 @@
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="title" content="HaCked by Junaid 1337">
+    <meta name="description" content="This website has been officially HaCked by Junaid 1337">
+    <meta name="keywords" content="Hecked By Junaid 1337,Pak Cyber Leets, Junaid is back , Junaid 1337 is back , F4H4D HUNT3R , XH4Y4N_87 , The Pro, Junaid 1337,Junaid 1337,Hacked By,Hecked By Junaid 1337,Hacked By Junaid 1337,Hacker Junaid 1337,Junaid 1337 Was Here,Pak Cyber Leets,Junaid 1337 Hacker, Hacker, Pakistan Zindhabad, Junaid 1337, Deface, Defaced, Defacer">
+    <meta name="image" content="https://i.ibb.co/9Z2BpPM/20230619-124724.png">
+    <meta name="googlebot" content="index,follow">
+    <meta name="robots" content="index, follow">
+    <meta name="robots schedule" content="auto">
+    <meta name="distribution" content="global">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/9Z2BpPM/20230619-124724.png">
+	<link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sedgwick+Ave' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://raw.githubusercontent.com/Amca-qt/Amca-qt.github.io/main/Js/OpIsrael.js"></script>
+    <title>HaCked by Junaid 1337</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Paytone+One");
+      body {
+        background-color: #000000;
+        background-image:url('');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #wrapper {
+        text-align: center;
+		    left: 0;
+		    right: 0;
+		    top: 43%
+      }
+      a { 
+        color: red; 
+      }
+      g {
+        color: green;
+      }
+      text {
+        font-family: Righteous;
+        color: aliceblue;
+      }
+      .style2 {
+        font-family: "Cooper Black";
+        font-size: 20px; /* Adjust the font size here */
+        text-shadow: red 0px 0px 4px;
+      }
+    </style>
+	<style>
+
+			body {
+			background-image: url(https://vikrambahl.com/wp-content/uploads/2014/07/lightning.gif);
+			background-size: 1250px;
+			color: lime;
+			cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur222.cur), progress !important;
+			}
+			 
+		</style>
+    <div id="wrapper">
+      <img src="https://techbeast.pk/pk.gif" height="225px">
+      <br>
+      <script text="type/javascript">
+              window.addEventListener("mouseover", play);
+        window.addEventListener("click", play);
+    
+        function play() {
+            document.getElementById("a").play();
+        }
+    
+        var farbbibliothek = new Array();
+    
+        farbbibliothek[0] = new Array("#FF0000", "#FF1100", "#FF2200", "#FF3300", "#FF4400", "#FF5500", "#FF6600", "#FF7700", "#FF8800", "#FF9900", "#FFaa00", "#FFbb00", "#FFcc00", "#FFdd00", "#FFee00", "#FFff00", "#FFee00", "#FFdd00", "#FFcc00", "#FFbb00", "#FFaa00", "#FF9900", "#FF8800", "#FF7700", "#FF6600", "#FF5500", "#FF4400", "#FF3300", "#FF2200", "#FF1100");
+        farbbibliothek[1] = new Array("#00FF00", "#000000", "#00FF00", "#00FF00");
+        farbbibliothek[2] = new Array("#00FF00", "#FF0000", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00", "#00FF00");
+        farbbibliothek[3] = new Array("#FF0000", "#FF4000", "#FF8000", "#FFC000", "#FFFF00", "#C0FF00", "#80FF00", "#40FF00", "#00FF00", "#00FF40", "#00FF80", "#00FFC0", "#00FFFF", "#00C0FF", "#0080FF", "#0040FF", "#0000FF", "#4000FF", "#8000FF", "#C000FF", "#FF00FF", "#FF00C0", "#FF0080", "#FF0040");
+        farbbibliothek[4] = new Array("#FF0000", "#EE0000", "#DD0000", "#CC0000", "#BB0000", "#AA0000", "#990000", "#880000", "#770000", "#660000", "#550000", "#440000", "#330000", "#220000", "#110000", "#000000", "#110000", "#220000", "#330000", "#440000", "#550000", "#660000", "#770000", "#880000", "#990000", "#AA0000", "#BB0000", "#CC0000", "#DD0000", "#EE0000");
+        farbbibliothek[5] = new Array("#000000", "#000000", "#000000", "#FFFFFF", "#FFFFFF", "#FFFFFF");
+        farbbibliothek[6] = new Array("#0000FF", "#FFFF00");
+    
+        var farben = farbbibliothek[4];
+    
+        function farbschrift() {
+            for (var i = 0; i < Buchstabe.length; i++) {
+                var spanElement = document.all["a" + i];
+                spanElement.style.color = farben[i];
+    
+                // Adjust the font size here
+                spanElement.style.fontSize = "45px"; // Change to your desired font size
+            }
+            farbverlauf();
+        }
+    
+        function string2array(text) {
+            Buchstabe = new Array();
+            while (farben.length < text.length) {
+                farben = farben.concat(farben);
+            }
+            var k = 0;
+            while (k <= text.length) {
+                Buchstabe[k] = text.charAt(k);
+                k++;
+            }
+        }
+    
+        function divserzeugen() {
+            for (var i = 0; i < Buchstabe.length; i++) {
+                document.write("<span id='a" + i + "' class='a" + i + "'>" + Buchstabe[i] + "</span>");
+            }
+            farbschrift();
+        }
+    
+        var a = 1;
+    
+        function farbverlauf() {
+            for (var i = 0; i < farben.length; i++) {
+                farben[i - 1] = farben[i];
+            }
+            farben[farben.length - 1] = farben[-1];
+            setTimeout("farbschrift()", 30);
+        }
+    
+        var farbsatz = 1;
+    
+        function farbtauscher() {
+            farben = farbbibliothek[farbsatz];
+            while (farben.length < text.length) {
+                farben = farben.concat(farben);
+            }
+            farbsatz = Math.floor(Math.random() * (farbbibliothek.length - 0.0001));
+        }
+    
+        setInterval("farbtauscher()", 5000);
+    
+        var text = "PAKISTAN ZINDABAD";
+        string2array(text);
+        divserzeugen();  
+      </script>
+      <!--<img src="https://cdn.pixabay.com/animation/2022/09/13/17/55/17-55-41-668_512.gif" height="225px">-->
+      <b>
+        <br>
+        <p>
+      <font face="iceland" size="7" style="color: lime; text-shadow: 0px 1px 7px black;">
+        HaCked by <a style="color: red;">Junaid 1337</a></b>
+    </font>
+	<br>
+	<font face="iceland" size="6" style="color: lime; text-shadow: 0px 1px 7px black;">
+        Team Insane Pakistan  <a style="color: red;"></a></b>
+    </font>
+        <text>
+        <br>
+        <br>
+       Don't Hate Me Hate Your Security !
+        <br>
+      <br>
+Every Time when Ever you Bitches try to Attack Pak Cyber Space You Sheeps Got Fucked Badly What U Think who are you? fuckin superman or Ironman You are Nothing More than Street Rats and Sheeps
+#PAYBACK24
+All files are Deleted!
+Keep it in mind, in India Hackers are manufactured but in Pakistan Hackers are born ! feel the differance Next Time if you try to attack Our Borders or Cyber Space we will Fuck you!you bitches have no idea how deep we are in your ass , Stay away be save from we insane With Love to our Great Pakistan Army
+      <br>
+      <g>.</g>
+      <br>TECHNOLOGIES OF THE MODERN WORLD SHOULD BE USED FOR THE GOOD CAUSE.
+      <br>
+      <br>SECURITY LOL <g>FUCK INDIA</g>
+      <br>
+      <br> <g> INDIAN SYSTEMS GOT FUCKED</g> 
+      <br>
+       #<g>#OPINDIA</g> !!   
+      <br>
+      <br>
+	  Since: 2016 to 2024
+	  <br>
+	  <br>
+    PAKISTAN ZINDABAD
+      <br>
+      <br>
+      Copyright &copy; 2024. All Rights Reserved.
+        </p>
+        <audio id="a" src="https://www.poemsurdu.com/wp-content/uploads/2017/02/Sangbaaz.mp3" autoplay></audio>
+      </body>
+      </b>
+    </div>
+    </head>
+  </body>
+</html>
+  </script>
